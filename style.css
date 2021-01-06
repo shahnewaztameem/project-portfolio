@@ -1,0 +1,281 @@
+/*------------------------------------------*/
+/************RESET AND BASIC SETUP***********/
+/*------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 18px;
+}
+
+.heading-font {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.info-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.primary-color {
+  color: #5d69e9;
+}
+
+.secondary-color {
+  color: #363958;
+}
+
+.text-color {
+  color: #3e3e3e;
+}
+
+/*------------------------------------------*/
+/******************HEADINGS******************/
+/*------------------------------------------*/
+
+h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------*/
+/************REUSABLE CODES******************/
+/*------------------------------------------*/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.column-3 {
+  width: 33.33%;
+  padding-left: 15px;
+}
+
+.section-bg-gray {
+  background: #f8f9fc;
+}
+
+.section-padding {
+  padding-bottom: 80px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.button {
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button-gradient {
+  background: linear-gradient(180deg, #5d69e9, #4289ff);
+}
+/*------------------------------------------*/
+/******************Navbar********************/
+/*------------------------------------------*/
+
+.nav-wrapper {
+  margin-top: 20px;
+}
+
+.nav-wrapper ul {
+  list-style: none;
+}
+
+.nav-wrapper ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav-wrapper ul li a {
+  color: #3c3c3c;
+  font-weight: 500;
+}
+
+/*------------------------------------------*/
+/******************Hero Section**************/
+/*------------------------------------------*/
+.hero-section {
+  padding-top: 0px;
+}
+
+.hero-info-wrapper {
+  margin: 150px 0;
+}
+
+.hero-section h1,
+.about-section h2 {
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.hero-section p {
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.hero-section img,
+.about-section img {
+  width: 100%;
+}
+
+/*------------------------------------------*/
+/*****************About Section*************/
+/*------------------------------------------*/
+.about-section h2 {
+  margin-top: 120px;
+}
+
+.about-info-wrapper {
+  margin-left: 15%;
+}
+
+.about-info-wrapper p {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/*------------------------------------------*/
+/************Latest Project Section**********/
+/*------------------------------------------*/
+.latest-working-project {
+  margin-bottom: 80px;
+}
+
+.latest-working-project h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-showcase-wrapper img {
+  width: 100%;
+}
+
+.projects-showcase-wrapper h3 {
+  line-height: 70px;
+}
+
+.projects-showcase-wrapper .box,
+.experiance-section .box {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects-showcase-wrapper p {
+  color: #6c6c6c;
+  line-height: 25px;
+}
+
+/*------------------------------------------*/
+/*****************Work Inquery***************/
+/*------------------------------------------*/
+
+.work-inquery {
+  margin-top: 50px;
+  background-image: url('./images/work_inquery.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.work-inquery h2 {
+  color: #fff;
+  margin-left: 150px;
+  display: inline-block;
+}
+
+.work-inquery a {
+  margin-top: 7px;
+  margin-right: 175px;
+}
+
+/*------------------------------------------*/
+/*****************Experiance****************/
+/*------------------------------------------*/
+.experiance-section h2,
+.experiance-section h3 {
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+}
+
+.experiance-section .width-50 {
+  width: 45%;
+  margin-left: 3%;
+}
+
+/*------------------------------------------*/
+/*****************Footer*********************/
+/*------------------------------------------*/
+footer h3 {
+  color: #696871;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+footer h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+footer .icons-wrapper {
+  text-align: center;
+}
+
+footer .icons-wrapper img {
+  width: 50px;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 20px;
+}
